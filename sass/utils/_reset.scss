@@ -1,0 +1,23 @@
+.link {
+  text-decoration: none;
+}
+
+.nav-link {
+  color: var(--current-title-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  transition-property: color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--function);
+}
+
+.lists {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
